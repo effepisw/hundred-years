@@ -1,0 +1,29 @@
+{
+  "name": "hundred-years",
+  "version": "1.0.0-SNAPSHOT.1",
+  "description": "Simple CLI to encrypt/decrypt own txt files.",
+  "main": "lib/index.js",
+  "bin": {
+    "hy": "lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/effepisw/hundred-years.git"
+  },
+  "keywords": [
+    "personal",
+    "secret",
+    "crypto",
+    "password"
+  ],
+  "author": "Francesco Pes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/effepisw/hundred-years/issues"
+  },
+  "homepage": "https://github.com/effepisw/hundred-years#readme",
+  "dependencies": {
+    "enquirer": "^2.3.6",
+    "open": "^7.4.0"
+  }
+}

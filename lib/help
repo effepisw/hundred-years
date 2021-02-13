@@ -1,0 +1,14 @@
+Operation:
+* ENCRYPT
+    Command: hy [encrypt, e] -s <file> -p <password> [-o]
+    Description: Encrypt the target file with specified password.
+                 Default, will be generated a new file with same name of target file plus "-encrypted" suffix.
+                 With option "-o" will be not generated a new file but override target file.
+* DECRYPT
+    Command: hy [decrypt, d] -s <file> -p <password> [-o]
+    Description: Decrypt the target file with specified password.
+                 Default, will be generated a new file with same name of target file plus "-decrypted" suffix.
+                 With option "-o" will be not generated a new file but override target file.
+* OPEN
+    Command: hy [open] -s <file> -p <password>
+    Description: Open notepad to show the target file decrypted.
